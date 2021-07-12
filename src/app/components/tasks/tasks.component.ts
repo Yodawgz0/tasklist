@@ -8,7 +8,7 @@ import {Task} from '../../Task'
   styleUrls: ['./tasks.component.scss']
 })
 export class TasksComponent implements OnInit {
-
+  tasks: Task[] = TASKS;
   constructor() { }
 
   ngOnInit(): void {
